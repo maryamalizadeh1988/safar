@@ -1,0 +1,532 @@
+﻿<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+
+<head>
+    <title>SafarLife|index</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="SafarLife" />
+    <meta name="keywords" content="SafarLife" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/icon/hotel-icon-colored.png" />
+    <meta name="theme-color" content="#FF4500">
+    <link href="plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="plugin/FontAwesome5-Pro/css/all.min.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/main-style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper homePage">
+        <div class="right-pattern">
+            <img src="img/images/right-pattern.svg" class="img-fluid" />
+        </div>
+        <div class="left-pattern">
+            <img src="img/images/left-pattern.svg" class="img-fluid" />
+        </div>
+        <header>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="menu-phone d-md-none">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <div class="logo"><img src="img/images/logo-sample.png" class="img-fluid" /></div>
+                    </div>
+                    <div class="col-lg-7 order-lg-2 col-md-12 order-last menu">
+                        <div class="close-menu-phone d-md-none">
+                            <div class="logo"><img src="img/images/logo-sample.png" class="img-fluid" /></div>
+                            <i class="fa fa-times"></i>
+                        </div>
+                        <nav>
+                            <ul class="d-md-flex list-unstyled m-0 p-0">
+                                <li><a href="">رزرو هتل</a></li>
+                                <li><a href="">بهترین هتل ها</a></li>
+                                <li><a href="">رزرو CIP فرودگاه امام</a></li>
+                                <li><a href="POI-list.html">جاذبه های گردشگری</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 order-lg-last col-9 order-2">
+                        <div class="header-btn">
+                            <button class="btn secondary-btn ml-2">پیگیری رزرو</button>
+                            <button class="btn primary-btn">ورود/ثبت نام</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="search-section">
+                <div class="container">
+                    <h1 class="title font-weight-bold mb-4">رزرو بهترین هتل ها</h1>
+                    <p>با خیال راحت و بدون دغدغه ، بهترین هتل های ایران را ببینید و رزرو کنید.</p>
+                    <div class="row mx-md-0">
+                        <div class="menu">
+                            <nav>
+                                <ul class="d-flex list-unstyled m-0 p-0">
+                                    <li class="active"><a href=""><img src="img/icon/hotel-icon-colored.png"
+                                                class="img-fluid" />رزرو هتل</a></li>
+                                    <li><a href=""><img src="img/icon/hotel-icon-colored.png" class="img-fluid" />بهترین
+                                            هتل ها</a></li>
+                                    <li><a href=""><img src="img/icon/hotel-icon-colored.png" class="img-fluid" />CIP
+                                            فرودگاه</a></li>
+                                    <li><a href="POI-list.html"><img src="img/icon/hotel-icon-colored.png"
+                                                class="img-fluid" />جاذبه های گردشگری</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="search-box">
+                            <div class="d-sm-flex align-items-center">
+                                <i class="fal fa-search icon-search"></i>
+                                <div class="form-group mb-0">
+                                    <label class="label">انتخاب شهر یا هتل</label>
+                                    <input type="text" placeholder="شهر یا هتل مورد نظر را انتخاب کنید"
+                                        class="form-control" />
+                                </div>
+                                <div class="form-group mb-0">
+                                    <label class="label">تاریخ ورود</label>
+                                    <input type="text" class="form-control" value="13 شهریور" />
+                                    <i class="fal fa-chevron-down down-icon"></i>
+                                </div>
+                                <div class="form-group mb-0">
+                                    <label class="label">تاریخ خروج</label>
+                                    <input type="text" class="form-control" value="15 شهریور" />
+                                    <i class="fal fa-chevron-down down-icon"></i>
+                                </div>
+                                <div class="form-group mb-0">
+                                    <label class="label">تعداد مسافر</label>
+                                    <select class="form-control">
+                                        <option>1</option>
+                                        <option selected>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down down-icon"></i>
+                                </div>
+                                <button class="btn primary-btn">جستجو</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="feature-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col-6">
+                            <div class="inner">
+                                <div class="icon">
+                                    <img src="img/icon/bookHotel-icon.svg" class="img-fluid" alt="" />
+                                </div>
+                                <h4 class="title">رزرو آنی هتل و کاملا رایگان</h4>
+                                <p class="description">توضیحات مربوطه در حد دو خط می باشد توضیحات مربوطه در حد دو خط می
+                                    باشد</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <div class="inner">
+                                <div class="icon">
+                                    <img src="img/icon/best-icon.svg" class="img-fluid" alt="" />
+                                </div>
+                                <h4 class="title">بهترین قیمت ها و چیشنهادات</h4>
+                                <p class="description">توضیحات مربوطه در حد دو خط می باشد توضیحات مربوطه در حد دو خط می
+                                    باشد</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <div class="inner">
+                                <div class="icon">
+                                    <img src="img/icon/refund-icons-in-pastel.svg" class="img-fluid" alt="" />
+                                </div>
+                                <h4 class="title">استرداد کاملا رایگان</h4>
+                                <p class="description">توضیحات مربوطه در حد دو خط می باشد توضیحات مربوطه در حد دو خط می
+                                    باشد</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <div class="inner">
+                                <div class="icon">
+                                    <img src="img/icon/invoice-icons.svg" class="img-fluid" alt="" />
+                                </div>
+                                <h4 class="title">ارائه فاکتور رسمی</h4>
+                                <p class="description">توضیحات مربوطه در حد دو خط می باشد توضیحات مربوطه در حد دو خط می
+                                    باشد</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="suggestionProduct-section">
+                <div class="container">
+                    <h3 class="title-section mb-md-5 mb-4">هتل های پیشنهادی سفرلایف</h3>
+                    <div class="row">
+                        <a href="" class="col-lg-3 col-md-4 col-sm-6 col-11 m-auto">
+                            <div class="inner">
+                                <div class="picture"><img src="img/images/place-1.png" class="img-fluid" /></div>
+                                <div class="details">
+                                    <h5 class="title">هتل اسپیناس پالاس</h5>
+                                    <div class="d-flex align-items-center rate-city">
+                                        <div class="rating d-flex">
+                                            <div>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span class="mr-2">هتل 5 ستاره</span>
+                                        </div>
+                                        <i class="fa fa-circle mx-2 dot"></i>
+                                        <span>تهران</span>
+                                    </div>
+                                    <div class="price-sec d-flex align-items-center justify-content-between">
+                                        <span class="label">شروع از</span>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <div class="discount d-flex align-items-center">
+                                                <span class="badge bafge-discont">20% تخفیف</span>
+                                                <div>12000000 <span class="currency">تومان</span></div>
+                                            </div>
+                                            <div class="price">12000000 <span class="currency">تومان</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="col-lg-3 col-md-4 col-sm-6 col-11 m-auto">
+                            <div class="inner">
+                                <div class="picture"><img src="img/images/place-2.png" class="img-fluid" /></div>
+                                <div class="details">
+                                    <h5 class="title">هتل هما</h5>
+                                    <div class="d-flex align-items-center rate-city">
+                                        <div class="rating d-flex">
+                                            <div>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span class="mr-2">هتل 5 ستاره</span>
+                                        </div>
+                                        <i class="fa fa-circle mx-2 dot"></i>
+                                        <span>تهران</span>
+                                    </div>
+                                    <div class="price-sec d-flex align-items-center justify-content-between">
+                                        <span class="label">شروع از</span>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <div class="price">12000000 <span class="currency">تومان</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="col-lg-3 col-md-4 col-sm-6 col-11 m-auto">
+                            <div class="inner">
+                                <div class="picture"><img src="img/images/place-3.png" class="img-fluid" /></div>
+                                <div class="details">
+                                    <h5 class="title">هتل پارسیان آزادی</h5>
+                                    <div class="d-flex align-items-center rate-city">
+                                        <div class="rating d-flex">
+                                            <div>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span class="mr-2">هتل 5 ستاره</span>
+                                        </div>
+                                        <i class="fa fa-circle mx-2 dot"></i>
+                                        <span>تهران</span>
+                                    </div>
+                                    <div class="price-sec d-flex align-items-center justify-content-between">
+                                        <span class="label">شروع از</span>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <div class="discount d-flex align-items-center">
+                                                <span class="badge bafge-discont">20% تخفیف</span>
+                                                <div>12000000 <span class="currency">تومان</span></div>
+                                            </div>
+                                            <div class="price">12000000 <span class="currency">تومان</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="col-lg-3 col-md-4 col-sm-6 col-11 m-auto">
+                            <div class="inner">
+                                <div class="picture"><img src="img/images/place-3.png" class="img-fluid" /></div>
+                                <div class="details">
+                                    <h5 class="title">هتل اسپیناس پالاس</h5>
+                                    <div class="d-flex align-items-center rate-city">
+                                        <div class="rating d-flex">
+                                            <div>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span class="mr-2">هتل 5 ستاره</span>
+                                        </div>
+                                        <i class="fa fa-circle mx-2 dot"></i>
+                                        <span>تهران</span>
+                                    </div>
+                                    <div class="price-sec d-flex align-items-center justify-content-between">
+                                        <span class="label">شروع از</span>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <div class="discount d-flex align-items-center">
+                                                <span class="badge bafge-discont">20% تخفیف</span>
+                                                <div>12000000 <span class="currency">تومان</span></div>
+                                            </div>
+                                            <div class="price">12000000 <span class="currency">تومان</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="col-lg-3 col-md-4 col-sm-6 col-11 m-auto">
+                            <div class="inner">
+                                <div class="picture"><img src="img/images/place-1.png" class="img-fluid" /></div>
+                                <div class="details">
+                                    <h5 class="title">هتل اسپیناس پالاس</h5>
+                                    <div class="d-flex align-items-center rate-city">
+                                        <div class="rating d-flex">
+                                            <div>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span class="mr-2">هتل 5 ستاره</span>
+                                        </div>
+                                        <i class="fa fa-circle mx-2 dot"></i>
+                                        <span>تهران</span>
+                                    </div>
+                                    <div class="price-sec d-flex align-items-center justify-content-between">
+                                        <span class="label">شروع از</span>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <div class="discount d-flex align-items-center">
+                                                <span class="badge bafge-discont">20% تخفیف</span>
+                                                <div>12000000 <span class="currency">تومان</span></div>
+                                            </div>
+                                            <div class="price">12000000 <span class="currency">تومان</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="col-lg-3 col-md-4 col-sm-6 col-11 m-auto">
+                            <div class="inner">
+                                <div class="picture"><img src="img/images/place-2.png" class="img-fluid" /></div>
+                                <div class="details">
+                                    <h5 class="title">هتل هما</h5>
+                                    <div class="d-flex align-items-center rate-city">
+                                        <div class="rating d-flex">
+                                            <div>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span class="mr-2">هتل 5 ستاره</span>
+                                        </div>
+                                        <i class="fa fa-circle mx-2 dot"></i>
+                                        <span>تهران</span>
+                                    </div>
+                                    <div class="price-sec d-flex align-items-center justify-content-between">
+                                        <span class="label">شروع از</span>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <div class="discount d-flex align-items-center">
+                                                <span class="badge bafge-discont">20% تخفیف</span>
+                                                <div>12000000 <span class="currency">تومان</span></div>
+                                            </div>
+                                            <div class="price">12000000 <span class="currency">تومان</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="col-lg-3 col-md-4 col-sm-6 col-11 m-auto">
+                            <div class="inner">
+                                <div class="picture"><img src="img/images/place-3.png" class="img-fluid" /></div>
+                                <div class="details">
+                                    <h5 class="title">هتل اسپیناس پالاس</h5>
+                                    <div class="d-flex align-items-center rate-city">
+                                        <div class="rating d-flex">
+                                            <div>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span class="mr-2">هتل 5 ستاره</span>
+                                        </div>
+                                        <i class="fa fa-circle mx-2 dot"></i>
+                                        <span>تهران</span>
+                                    </div>
+                                    <div class="price-sec d-flex align-items-center justify-content-between">
+                                        <span class="label">شروع از</span>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <div class="price">12000000 <span class="currency">تومان</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="col-lg-3 col-md-4 col-sm-6 col-11 m-auto">
+                            <div class="inner">
+                                <div class="picture"><img src="img/images/place-3.png" class="img-fluid" /></div>
+                                <div class="details">
+                                    <h5 class="title">هتل پارسیان آزادی</h5>
+                                    <div class="d-flex align-items-center rate-city">
+                                        <div class="rating d-flex">
+                                            <div>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <span class="mr-2">هتل 5 ستاره</span>
+                                        </div>
+                                        <i class="fa fa-circle mx-2 dot"></i>
+                                        <span>تهران</span>
+                                    </div>
+                                    <div class="price-sec d-flex align-items-center justify-content-between">
+                                        <span class="label">شروع از</span>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <div class="discount d-flex align-items-center">
+                                                <span class="badge bafge-discont">20% تخفیف</span>
+                                                <div>12000000 <span class="currency">تومان</span></div>
+                                            </div>
+                                            <div class="price">12000000 <span class="currency">تومان</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="homepageNews-section">
+                <div class="container">
+                    <h3 class="title-section mb-md-5 mb-4">آخرین اخبار و رویدادها</h3>
+                    <div class="news-items">
+                        <div>
+                            <a href="" class="item img-pattern">
+                                <div class="picture">
+                                    <img src="img/images/place-2.png" class="img-fluid" />
+                                </div>
+                                <div class="info">
+                                    <h6 class="title">معرفی بهترین و اقتصادی رتین هتل های کیش : هتل آریان</h6>
+                                    <span class="more">بیشتر بخوانید</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" class="item img-pattern">
+                                <div class="picture">
+                                    <img src="img/images/place-3.png" class="img-fluid" />
+                                </div>
+                                <div class="info">
+                                    <h6 class="title">16 چیزی که برای سفر به کیش باید بدانید</h6>
+                                    <span class="more">بیشتر بخوانید</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" class="item">
+                                <div class="picture">
+                                    <img src="img/images/place-1.png" class="img-fluid" />
+                                </div>
+                                <div class="info">
+                                    <h6 class="title">لیست معروف ترین تله کابین های ایران + عکس و آدرس</h6>
+                                    <span class="more">بیشتر بخوانید</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" class="item color-pattern">
+                                <div class="info">
+                                    <h6 class="title">شهر تاریخی یزد سالها است به عنوان اولین شهر خشتی جهان و دومین شهر
+                                        تاریخی دنیا شناخته میشود</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" class="item color-pattern">
+                                <div class="info">
+                                    <h6 class="title">جاهای دیدنی تهران ، جاذبه های گردشگری پایتخت</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" class="item">
+                                <div class="picture">
+                                    <img src="img/images/place-1.png" class="img-fluid" />
+                                </div>
+                                <div class="info">
+                                    <h6 class="title">16 چیزی که برای سفر به کیش باید بدانید</h6>
+                                    <p class="short-desc">خلاصه ای از بلاگ پست خلاصه ای از بلاگ پست خلاصه ای از بلاگ پست
+                                    </p>
+                                    <span class="more">بیشتر بخوانید</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm-6">
+                            <ul class="list-linkFooter list-unstyled p-0 m-0">
+                                <li><a href="">رزرو هتل</a></li>
+                                <li><a href="">بهترین هتل ها</a></li>
+                                <li><a href="">جاذبه های گردشگری</a></li>
+                                <li><a href="">CIP فرودگاه</a></li>
+                                <li><a href="">درباره ما</a></li>
+                                <li><a href="">پیگیری رزرو</a></li>
+                                <li><a href="">قوانین رزرو هتل</a></li>
+                                <li><a href="">مجله گردشگری</a></li>
+                                <li><a href="">سوالات متدوال</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="socialMedia">
+                                <ul
+                                    class="list-unstyled p-0 d-flex flex-wrap align-items-center justify-content-center">
+                                    <li><a href=""><img src="img/icon/instagram.png" class="img-fluid" /></a></li>
+                                    <li><a href=""><img src="img/icon/whatsapp.png" class="img-fluid" /></a></li>
+                                    <li><a href=""><img src="img/icon/twitter.png" class="img-fluid" /></a></li>
+                                    <li><a href=""><img src="img/icon/telegram.png" class="img-fluid" /></a></li>
+                                </ul>
+                            </div>
+                            <div class="contactUs text-center">
+                                <p>آدرس دفتر فروش : تهران خیابان فلان کوچه فلان پلاک فلان</p>
+                                <p>شماره تماس : <a dir="ltr" href="tel:+982112345678">021 - 12345678</a></p>
+                            </div>
+                            <div class="Namad">
+                                <!------جایگاه اینماد------>
+                                <!------جایگاه اینماد------>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main-js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+
+<head>
+    <title>SafarLife</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="SafarLife" />
+    <meta name="keywords" content="SafarLife" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/icon/hotel-icon-colored.png" />
+    <meta name="theme-color" content="#FF4500">
+    <link href="plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="plugin/FontAwesome5-Pro/css/all.min.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/main-style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="menu-phone d-md-none">
+                        <i class="far fa-bars"></i>
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <div class="logo"><img src="img/images/logo-sample.png" class="img-fluid" /></div>
+                    </div>
+                    <div class="col-lg-7 order-lg-2 col-md-12 order-last menu">
+                        <div class="close-menu-phone d-md-none">
+                            <div class="logo"><img src="img/images/logo-sample.png" class="img-fluid" /></div>
+                            <i class="fa fa-times"></i>
+                        </div>
+                        <nav>
+                            <ul class="d-md-flex list-unstyled m-0 p-0">
+                                <li><a href="">رزرو هتل</a></li>
+                                <li><a href="">بهترین هتل ها</a></li>
+                                <li><a href="">رزرو CIP فرودگاه امام</a></li>
+                                <li><a href="POI-list.html">جاذبه های گردشگری</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 order-lg-last col-9 order-2">
+                        <div class="header-btn">
+                            <button class="btn secondary-btn ml-2">پیگیری رزرو</button>
+                            <button class="btn primary-btn">ورود/ثبت نام</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="pt-0 flightInfo-section has-border first">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 mb-md-0 mb-4">
+                            <div class="icon">
+                                <img src="img/icon/fly-info.png" class="img-fluid" />
+                                <h6 class="title">اطلاعات پرواز</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="inner">
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="col-md-4 form-group">
+                                        <input type="text" class="form-control bg-gray" placeholder="شماره پرواز" />
+                                    </div>
+                                    <div class="col-md-4 form-group">
+                                        <input type="text" class="form-control bg-gray" placeholder="تاریخ پرواز" />
+                                    </div>
+                                    <div class="col-md-4 form-group">
+                                        <input type="text" class="form-control bg-gray"
+                                            placeholder="انتخاب مبدا یا مقصد" />
+                                    </div>
+                                </div>
+                                <div class="d-sm-flex mt-5">
+                                    <div class="col-md-6 form-group d-lg-flex align-items-center">
+                                        <label class="label font-weight-bold ml-lg-4 mb-lg-0">نوع پرواز</label>
+                                        <div class="custom-control custom-radio ml-3">
+                                            <input type="radio" class="custom-control-input" id="in" name="fly" />
+                                            <label class="custom-control-label" for="in">پرواز ورودی</label>
+                                        </div>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" id="out" name="fly" />
+                                            <label class="custom-control-label" for="out">پرواز خروجی</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 form-group d-flex align-items-center">
+                                        <label class="label font-weight-bold ml-4 mb-0">ساعت پرواز</label>
+                                        <div class="d-flex align-items-center hour-min">
+                                            <input type="text" class="form-control bg-gray" placeholder="ساعت" />
+                                            <span class="mx-2">:</span>
+                                            <input type="text" class="form-control bg-gray" placeholder="دقیقه" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt-0 pasengerInfo-section has-border">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 mb-md-0 mb-4">
+                            <div class="icon">
+                                <img src="img/icon/business-icons.png" class="img-fluid" />
+                                <h6 class="title">اطلاعات مسافران</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="inner">
+                                <h4 class="title col-12">اطلاعات مسافران</h4>
+                                <div class="d-flex flex-wrap align-items-center">
+                                    <div class="col-lg-3 col-sm-6 form-group">
+                                        <input type="text" class="form-control bg-gray" placeholder="نام به لاتین" />
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 form-group">
+                                        <input type="text" class="form-control bg-gray"
+                                            placeholder="نام خانوادگی به لاتین" />
+                                    </div>
+                                    <div
+                                        class="col-lg-2 col-sm-4 mt-lg-0 mt-3 mr-lg-0 mr-3 form-group custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="baby" />
+                                        <label class="custom-control-label" for="baby">مسافر خردسال</label>
+                                    </div>
+                                    <div
+                                        class="col-lg-2 col-sm-4 mt-lg-0 mt-3 mr-lg-0 mr-3 form-group custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="visa" />
+                                        <label class="custom-control-label" for="visa">خدمات ویزا</label>
+                                    </div>
+                                    <div
+                                        class="col-lg-2 col-sm-4 mt-lg-0 mt-3 mr-lg-0 mr-3 form-group custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="wheelchair" />
+                                        <label class="custom-control-label" for="wheelchair">خدمات ویلچر</label>
+                                    </div>
+                                    <div class="col-12 mt-3">
+                                        <button class="btn secondary-btn"><i class="far fa-plus ml-2"></i>افزودن
+                                            مسافر</button>
+                                    </div>
+                                </div>
+                                <h4 class="title col-12 mt-5">اطلاعات مشایعت کنندگان</h4>
+                                <div class="d-flex align-items-center col-12 form-group companion">
+                                    <label class="label bg-gray bg-transparent ml-3 mb-0">تعداد مشایعت کننده</label>
+                                    <div class="d-flex align-items-center">
+                                        <div class="plus-btn">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                        <span class="qty p-2">1</span>
+                                        <div class="minus-btn">
+                                            <i class="far fa-minus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-sm-flex align-items-center mt-4">
+                                    <div class="col-md-4 form-group">
+                                        <input type="text" class="form-control bg-gray"
+                                            placeholder="نام و نام خانوادگی" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt-0 transferService-section has-border">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 mb-md-0 mb-4">
+                            <div class="icon">
+                                <img src="img/icon/transfer-icon.png" class="img-fluid" />
+                                <h6 class="title">خدمات ترانسفر</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="inner d-flex flex-wrap text-center">
+                                <div class="col-lg-5 col-md-6 col-sm-6 m-auto box">
+                                    <div class="picture">
+                                        <img src="img/images/car.png" class="img-fluid" />
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="one" />
+                                        <label class="custom-control-label" for="one">تویوتا کمری - تهران</label>
+                                    </div>
+                                    <div class="price">
+                                        <span>230000</span> تومان
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-6 col-sm-6 m-auto box">
+                                    <div class="picture">
+                                        <img src="img/images/car.png" class="img-fluid" />
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="two" />
+                                        <label class="custom-control-label" for="two">ون مکسوس - تهران</label>
+                                    </div>
+                                    <div class="price">
+                                        <span>2350000</span> تومان
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-6 col-sm-6 m-auto box">
+                                    <div class="picture">
+                                        <img src="img/images/car.png" class="img-fluid" />
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="three" />
+                                        <label class="custom-control-label" for="three">تویوتا کمری - کرج و
+                                            لواسان</label>
+                                    </div>
+                                    <div class="price">
+                                        <span>2350000</span> تومان
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-6 col-sm-6 m-auto box">
+                                    <div class="picture">
+                                        <img src="img/images/car.png" class="img-fluid" />
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="four" />
+                                        <label class="custom-control-label" for="four">ون مکسوس - کرج و لواسان</label>
+                                    </div>
+                                    <div class="price">
+                                        <span>2350000</span> تومان
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt-0 bookInfo-section has-border last">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 mb-md-0 mb-4">
+                            <div class="icon">
+                                <img src="img/icon/person-icons.png" class="img-fluid" />
+                                <h6 class="title">اطلاعات رزرو کننده</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="inner">
+                                <h4 class="title col-12">اطلاعات رزرو کننده</h4>
+                                <div class="d-sm-flex align-items-center">
+                                    <div class="col-md-4 form-group">
+                                        <input type="text" class="form-control bg-gray"
+                                            placeholder="نام و نام خانوادگی" />
+                                    </div>
+                                    <div class="col-md-4 form-group">
+                                        <input type="text" class="form-control bg-gray" placeholder="شماره موبایل" />
+                                    </div>
+                                    <div class="col-md-4 form-group">
+                                        <input type="text" class="form-control bg-gray" placeholder="ایمیل" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="checkoutCIP-section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="five" />
+                                <label class="custom-control-label" for="five"><a href="" class="rule">قوانین رزرو
+                                        CIP</a> را می پذیرم</label>
+                            </div>
+                        </div>
+                        <div
+                            class="col-md-8 d-flex flex-wrap align-items-center justify-content-md-end justify-content-center mt-md-0 mt-3">
+                            <div class="price ml-4">
+                                مبلغ قابل پرداخت
+                                <span>12000000</span>
+                                تومان
+                            </div>
+                            <button type="button" class="btn primary-btn">تایید و پرداخت</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bookCIP-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-8 col-sm-10">
+                            <h3 class="title">رزرو CIP فرودگاه امام خمینی</h3>
+                            <p>توضیحات درباره سی آی پی توضیحات درباره سی آی پی توضیحات درباره سی آی پی توضیحات درباره سی
+                                آی پی</p>
+                            <ul class="list-unstyled pr-1">
+                                <li>یه خط از مزایای گرفتن سی آی پی از سفر لایف</li>
+                                <li>یه خط از مزایای گرفتن سی آی پی از سفر لایف</li>
+                                <li>یه خط از مزایای گرفتن سی آی پی از سفر لایف</li>
+                            </ul>
+                            <button type="button" class="btn primary-btn">رزرو CIP فرودگاه امام خمینی</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm-6">
+                            <ul class="list-linkFooter list-unstyled p-0 m-0">
+                                <li><a href="">رزرو هتل</a></li>
+                                <li><a href="">بهترین هتل ها</a></li>
+                                <li><a href="">جاذبه های گردشگری</a></li>
+                                <li><a href="">CIP فرودگاه</a></li>
+                                <li><a href="">درباره ما</a></li>
+                                <li><a href="">پیگیری رزرو</a></li>
+                                <li><a href="">قوانین رزرو هتل</a></li>
+                                <li><a href="">مجله گردشگری</a></li>
+                                <li><a href="">سوالات متدوال</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="socialMedia">
+                                <ul
+                                    class="list-unstyled p-0 d-flex flex-wrap align-items-center justify-content-center">
+                                    <li><a href=""><img src="img/icon/instagram.png" class="img-fluid" /></a></li>
+                                    <li><a href=""><img src="img/icon/whatsapp.png" class="img-fluid" /></a></li>
+                                    <li><a href=""><img src="img/icon/twitter.png" class="img-fluid" /></a></li>
+                                    <li><a href=""><img src="img/icon/telegram.png" class="img-fluid" /></a></li>
+                                </ul>
+                            </div>
+                            <div class="contactUs text-center">
+                                <p>آدرس دفتر فروش : تهران خیابان فلان کوچه فلان پلاک فلان</p>
+                                <p>شماره تماس : <a dir="ltr" href="tel:+982112345678">021 - 12345678</a></p>
+                            </div>
+                            <div class="Namad">
+                                <!------جایگاه اینماد------>
+                                <!------جایگاه اینماد------>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main-js.js"></script>
+</body>
+
+</html>
